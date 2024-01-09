@@ -157,7 +157,7 @@ export default function useCandyMachineV3(
         nftGuards?: NftPaymentMintSettings[];
       } = {}
     ) => {
-      if (!guardsAndGroups[opts.groupLabel || "default"])
+      if (!guardsAndGroups[opts.groupLabel || "Humper"])
         throw new Error("Unknown guard group label");
 
       const allowList = opts.groupLabel &&
