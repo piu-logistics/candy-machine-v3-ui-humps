@@ -12,18 +12,18 @@ export const candyMachineId = new PublicKey(
     "EygLzSdu2SeJ5GCGjgNXHSWkvxJDD95596VMkceGvmTR"
 );
 export const defaultGuardGroup =
-  process.env.NEXT_PUBLIC_DEFAULT_GUARD_GROUP || "6je4tx1JjCkDYbvUZrPh72fqkCHzYUSWnfdWTzAgRU8f"; // undefined means default
+  process.env.NEXT_PUBLIC_DEFAULT_GUARD_GROUP || "3smaj9Bcu1egrM6s6S2XA9FqP2H5ih7RdUAztb4N7eza"; // undefined means default
 
 // "3zwFR3spiwbSSMtvVKG2bRT6ttqFoC3MHCafGP8ZrdLz"
 // "DAA8yRLu7acVs3kxaTyCjoEjNWGinLaCKVhDY29ASNua"
 
 export const whitelistedWallets = [
-  "53VVFtLzzi3nL2p1QF591PAB8rbcbsirYepwUphtHU9Q",
-  "85gHs1pKkZcNCDEbcfxqhfFNPWCsNFqPTMMbTQARspWy",
-  "FXoth7ba7LALmJGFaidCcMnhsxEagBDBDKCmkpr2QuDr",
-  "232Z5QNvQ4wRyraGWFpC5i3HEbqozEWgBCV95eWASaG1",
-  "D8ivzpXkG66VknRdVjEF1HjqS3T1tzcqraVR6FYaeLsV",
-  "sTAKERL4U8fbn2nUte6rPVdcrz2z3fEh1adQEDrGULr",
+//  "53VVFtLzzi3nL2p1QF591PAB8rbcbsirYepwUphtHU9Q",
+//  "85gHs1pKkZcNCDEbcfxqhfFNPWCsNFqPTMMbTQARspWy",
+//  "FXoth7ba7LALmJGFaidCcMnhsxEagBDBDKCmkpr2QuDr",
+//  "232Z5QNvQ4wRyraGWFpC5i3HEbqozEWgBCV95eWASaG1",
+//  "D8ivzpXkG66VknRdVjEF1HjqS3T1tzcqraVR6FYaeLsV",
+//  "sTAKERL4U8fbn2nUte6rPVdcrz2z3fEh1adQEDrGULr",
 ];
 
 export const collectionImageURL =
@@ -40,9 +40,6 @@ export const tokenType =
 
 export const websiteURL =
   process.env.NEXT_PUBLIC_WEBSITE_URL || "#";
-
-export const websiteURL2 =
-  process.env.NEXT_PUBLIC_WEBSITE_URL2 || "#";
 
 export const twitterURL =
   process.env.NEXT_PUBLIC_TWITTER_URL || "#";
