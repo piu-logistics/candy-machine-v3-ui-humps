@@ -12,9 +12,8 @@ export const candyMachineId = new PublicKey(
     "EygLzSdu2SeJ5GCGjgNXHSWkvxJDD95596VMkceGvmTR"
 );
 export const defaultGuardGroup =
-  process.env.NEXT_PUBLIC_DEFAULT_GUARD_GROUP || undefined; // undefined means default
+  process.env.NEXT_PUBLIC_DEFAULT_GUARD_GROUP || "6je4tx1JjCkDYbvUZrPh72fqkCHzYUSWnfdWTzAgRU8f"; // undefined means default
 
- "6je4tx1JjCkDYbvUZrPh72fqkCHzYUSWnfdWTzAgRU8f"
 // "3zwFR3spiwbSSMtvVKG2bRT6ttqFoC3MHCafGP8ZrdLz"
 // "DAA8yRLu7acVs3kxaTyCjoEjNWGinLaCKVhDY29ASNua"
 
